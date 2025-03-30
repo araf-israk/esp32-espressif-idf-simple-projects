@@ -1,0 +1,9 @@
+CMake Error at C:/Users/arafi/esp/v5.3.2/esp-idf/tools/cmake/component.cmake:480 (add_library):
+  add_library cannot create target "__idf_main" because another target with
+  the same name already exists.  The existing target is a static library
+  created in source directory "D:/ESP_Projects/MQTT_TEST1/main".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  main/CMakeLists.txt:4 (idf_component_register)
+
+
